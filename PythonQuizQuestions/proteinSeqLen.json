@@ -1,0 +1,34 @@
+[
+	{
+        "question": "Type your numerical response. How many amino acids are in the protein sequence of 7WSM_1|Chain A? To reveal the correct answer, enter 0",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 520"
+            }, 
+            {
+                "type": "value",
+                "value": 5,
+                "correct": false,
+                "feedback": "Incorrect: off by around a factor of 10"
+            },
+            {
+                "type": "value",
+                "value": 520,
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "type": "value",
+                "value": 600,
+                "correct": false,
+                "feedback": "Incorrect, too large"
+            }
+        ]
+    }
+]
+
+   

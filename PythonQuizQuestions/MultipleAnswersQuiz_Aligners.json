@@ -1,0 +1,33 @@
+[
+	{
+        "question": "Select all answers that are correct. Which tools are used primarily as aligners in an RNA-Seq pipeline?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "STAR",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "BW2",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "BWA",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Bowtie2",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "Bismark",
+                "correct": false,
+                "feedback": "Incorrect- not used for RNA-Seq."
+            }
+        ]
+    }
+]

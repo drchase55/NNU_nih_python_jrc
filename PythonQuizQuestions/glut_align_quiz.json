@@ -1,0 +1,22 @@
+[
+	{
+        "question": "Type your numerical response. What is the alignment score between 7WSM_1 and 6THA_1? Type 0 to reveal the answer and methods to find it",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "345. One solution looks like this: forth_record=record_glut[3]; glut_align=pairwise2.align.globalxx(first_record.seq, forth_record.seq); print(format_alignment(*glut_align[0]))"
+            },
+            {
+                "type": "value",
+                "value": 345,
+                "correct": true,
+                "feedback": "GREAT JOB! That is correct"
+            }
+        ]
+    }
+]
+
+   

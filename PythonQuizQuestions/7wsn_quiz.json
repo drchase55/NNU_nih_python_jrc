@@ -1,0 +1,22 @@
+[
+	{
+        "question": "Type your numerical response. How many times does D appear in the 7wsn_1 protein? Type 0 to reveal the answer and methods to find it",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "11. First, you needed to get the 2nd record: second_record=record_glut[1]. Then, use the count_base tool with (second_record.seq, D)."
+            },
+            {
+                "type": "value",
+                "value": 11,
+                "correct": true,
+                "feedback": "GREAT JOB! That is correct"
+            }
+        ]
+    }
+]
+
+   
