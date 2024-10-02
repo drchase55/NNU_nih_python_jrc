@@ -1,0 +1,28 @@
+[
+    {
+        "question": "From which organism does the AAA39318.1 sequence come?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Mus musculus",
+                "correct": true,
+                "feedback": "Correct. Great coding"
+            },
+            {
+                "answer": "Homo sapiens",
+                "correct": false,
+                "feedback": "Incorrect. You might be looking at the originally imported file, not the new one"
+            },
+            {
+                "answer": "Gallus gallus",
+                "correct": false,
+                "feedback": "Incorrect, not chicken."
+            },
+            {
+                "answer": "Please give me a hint",
+                "correct": false,
+                "feedback": "Hint... once you import the sequence, look at xyz.description to see the name, or look at the whole file"
+            }
+        ]
+    }
+]

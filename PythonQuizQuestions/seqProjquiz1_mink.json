@@ -1,0 +1,22 @@
+[
+	{
+        "question": "Type your numerical response. What is the length of the mink ADH E subunit (XM_044226065.1)? For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 1545 and can be obtained by print(len(minkADH.seq), with your variable for the seq"
+            }, 
+            {
+                "type": "value",
+                "value": 1545,
+                "correct": true,
+                "feedback": "Correct!"
+            }            
+        ]
+    }
+]
+
+   
