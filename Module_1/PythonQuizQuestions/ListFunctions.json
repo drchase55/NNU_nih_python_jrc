@@ -1,0 +1,21 @@
+{
+    "description": "Match the appropriate output to the code related to list1=['a',1,2,(1,2)]:",
+    "questions": [
+        {
+            "question": "list1[0]",
+            "answer": "'a'",
+            "explanation": "Hint: List indices start at 0."
+        },
+        {
+            "question": "list1.append(3)",
+            "answer": "['a',1,2,(1,2),3]",
+            "explanation": "Hint: Append adds an element to the end of the list."
+        },
+        {
+            "question": "list1.remove(2)",
+            "answer": "["a",1,(1,2)]",
+            "explanation": "Hint: His tears cure cancer. Too bad he's never cried!"
+        }
+    ],
+    "distractors": ["Batman", "1", "["a",1,2,3]", ["a",1,(1)]]
+}
