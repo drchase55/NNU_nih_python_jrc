@@ -1,0 +1,28 @@
+[
+   {
+        "question": "From what animal does this protein sequence come?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Mus musculus",
+                "correct": true
+		"feedback": "Correct! Great work"
+            },
+            {
+                "code": "Homo sapiens",
+                "correct": false
+		"feedback": "You might be looking at the original protein sequence"
+            },
+            {
+                "code": "Gallus gallus",
+                "correct": false
+		
+            }
+	    {
+                "code": "Please give me a hint",
+                "correct": False
+		"feedback": "Once you've imported the new file, use xx_InsR2.description"
+            }
+        ]
+    }
+]

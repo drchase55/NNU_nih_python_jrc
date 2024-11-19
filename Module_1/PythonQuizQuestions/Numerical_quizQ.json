@@ -1,0 +1,34 @@
+[
+	{
+        "question": "Type your response. How many reads mapped to chr6:10790:12567?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 5,
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "type": "value",
+                "value": 50,
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "type": "value",
+                "value": 6,
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
+
+   

@@ -1,0 +1,28 @@
+[
+   {
+        "question": "How could you assign the variable A to be the word true, not the boolean value?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "A=true",
+                "correct": false,
+		"feedback": "That is neither the Boolean value True nor the string"
+            },
+            {
+                "code": "A=True",
+                "correct": false,
+		"feedback": "that is a Boolean value"
+            },
+            {
+                "code": "A='True'",
+                "correct": true,
+		"feedback": "That is correct"
+            },
+	    {
+                "code": "Please give me a hint",
+                "correct": false,
+		"feedback": "Hint: strings are placed in quotation marks, either single or double"
+            }
+        ]
+    }
+]

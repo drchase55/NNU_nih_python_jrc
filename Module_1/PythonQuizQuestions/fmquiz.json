@@ -1,0 +1,37 @@
+[
+    {'question': 'What is the output: print("I need","a cat.")',
+     'type': 'multiple_choice',
+     'answers': [
+         {'code': 'I needa cat', 'correct': false, 'feedback': 'the separator comma automatically adds a space'},
+         {'code': 'I need a cat', 'correct': true, 'feedback': 'Yes!'},
+         {'code': '(I need a cat)', 'correct': false, 'feedback': 'The parentheses tell Python to use the print tool on what is inside'}
+     ]
+    },
+    
+    {'question': 'Which of the following would turn the content of variable x into uppercase?',
+     'type': 'many_choice',
+     'answers': [
+         {'code': 'x.upper()', 'correct': true, 'feedback': 'great!'},
+         {'code': 'upper(x)', 'correct': false, 'feedback': 'upper is a method on x.'},
+         {'code': 'upper("x")', 'correct': false, 'feedback': 'That would be true for x as a letter'},
+         {'code': '"x".upper()', 'correct': true, 'feedback': 'That is correct only IF you just mean x as a character. As a variable, you do not need quotes around x'}
+     ]
+    },    
+
+    {'question': 'What would be the result of print(var1[1]) if var1="seq:ATGGC" ?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'code': 's', 'correct': false, 'feedback': 'That letter is in position 0'},
+         {'code': 'A', 'correct': false, 'feedback': 'The string starts with seq...'},
+	{'code': 'var1[1]', 'correct': false, 'feedback': 'Since var1 is a string variable, this will be interpreted to print the character at position 1'},
+         {'code': 'e', 'correct': true, 'feedback': 'Good job! You remembered that Python strings start at position 0.'}
+     ]
+    },
+
+    {'question': 'Can you change the 3 in the number 1300 to a 4 by var1[1]=4?',
+     'type': 'multiple_choice',
+     'answers':[
+	{'code': 'Yes', 'correct': false, 'feedback': 'Integers and strings are immutable.'},
+	{'code': 'No', 'correct': true, 'feedback': 'Integers and strings are immutable.'}
+	]}
+]

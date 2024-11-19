@@ -1,0 +1,20 @@
+[
+    {'question': 'What is the output: print("I need","a cat.")',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'I needa cat', 'correct': False, 'feedback': 'the separator comma automatically adds a space'},
+         {'answer': 'I need a cat', 'correct': True, 'feedback': 'Yes!'}
+     ]
+    },
+    
+    {'question': 'Which of the following would turn the content of variable x into uppercase?',
+     'type': 'many_choice',
+     'answers': [
+         {'answer': 'x.upper()', 'correct': True, 'feedback': 'great!'},
+         {'answer': 'upper(x)', 'correct': False, 'feedback': 'upper is a method on x.'},
+         {'answer': 'upper("x")', 'correct': False, 'feedback': 'That would be true for x as a letter'},
+         {'answer': '"x".upper()', 'correct': True, 'feedback': 'That is correct only IF you just mean x as a character. As a variable, you do not need quotes around x'}
+     ]
+    },    
+    
+]
