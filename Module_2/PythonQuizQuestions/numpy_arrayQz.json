@@ -1,0 +1,28 @@
+[
+	{
+        "question": "Type your response. What is the final number in the array you created? Enter 0 to get the code to run and answer",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 300,
+                "correct": false,
+                "feedback": "Incorrect. You don't have to guess. Get the value at the end of the array "
+            },
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "The final number is 296, because it's not evenly divisible by 7. The correct code would be, for array X=np.arange(100,300,7) the final value would be at index -1, so X[-1]"
+            },
+            {
+                "type": "value",
+                "value": 296,
+                "correct": true,
+                "feedback": "Correct"
+            },
+        ]
+    }
+]
+
+   

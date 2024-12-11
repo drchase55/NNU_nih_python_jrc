@@ -1,0 +1,18 @@
+[
+   {
+        "question": "True or False: With the aa_names dictionary, you CAN access the value alanine with the key aa_names['A'] AND the key, A, by providing the value aa_names['alanine']?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "True",
+                "correct": false,
+		"feedback": "No, you can only access the value with the key, not vice versa"
+            },
+            {
+                "code": "False",
+                "correct": true,
+		"feedback": "Correct, you can only acess the value with the key"
+            }
+        ]
+    }
+]
