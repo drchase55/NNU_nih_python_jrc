@@ -1,0 +1,12 @@
+
+[
+    {'question': 'What happens when you change the 4th element with arr[3]="cat"?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'The fourth element becomes "cat"', 'correct': False, 'feedback': 'NumPy arrays can only hold one type of element'},
+         {'answer': 'The fourth element becomes "c"', 'correct': True, 'feedback': 'Yes!'},
+	 {'answer': 'An error code is thrown', 'correct': False, 'feedback': 'It will accept a change.'},
+	 {'answer': 'The fourth element would be changed with arr[4]="cat"', 'correct': False,'feedback': 'That will change the 5th element.'}
+     ]
+    },
+]

@@ -1,0 +1,10 @@
+
+[
+    {'question': 'What happens when you change the 4th element with arr[3]=cat?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'The fourth element becomes cat', 'correct': False},
+         {'answer': 'The fourth element becomes c', 'correct': True}
+     ]
+    },
+]
