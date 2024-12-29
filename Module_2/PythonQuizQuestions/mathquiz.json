@@ -1,0 +1,26 @@
+[
+	{
+        "question": "Type your numerical response to 2 decimal places, as in 41.33: What is the average gene expression?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.44,
+                "correct": True,
+                "feedback": "Great job! "
+            },
+        ]
+    },
+    {
+        "question": "Type your numerical response to 2 decimal places. What is the standard deviation of gene expression?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3.11,
+                "correct": True,
+                "feedback": "Great job! "
+            },
+        ]
+    }
+]

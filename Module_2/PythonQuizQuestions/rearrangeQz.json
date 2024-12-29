@@ -1,0 +1,19 @@
+
+[
+    {'question': 'How do you add 11 & 12 to the array (called arr)?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'arr[10,11]=(11, 12)', 'correct': False, 'feedback': 'To add additional elements to the array, you must append'},
+         {'answer': 'arr(:, [11,12])', 'correct': False, 'feedback': 'Try again. To add additional elements to the array you must append'},
+	 {'answer': 'arr.append([11,12])', 'correct': False, 'feedback': 'append is not a function of an array.'},
+	 {'answer': 'np.append(arr,[11,12])', 'correct': True,'feedback': 'Great!'}
+     ]
+    },
+    {'question': 'True/False: arr.reshape(2,2,3) will make 3 sets of 2x2 arrays, that is, 3 sets of 4 values?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'True', 'correct': False, 'feedback': 'No, it will make 2 sets of 3x2 arrays- 2 sets of 6 numbers'},
+         {'answer': 'False', 'correct': True, 'feedback': 'Correct! It will make 2 sets of 3x2 arrays- 2 sets of 6 numbers'},
+     ]
+    },
+]

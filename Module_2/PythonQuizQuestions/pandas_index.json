@@ -1,0 +1,21 @@
+[
+	{'question': 'Which of the following is the correct way to, in the states dataframe, select for Idaho data?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'states.loc["Idaho"]', 'correct': True, 'feedback': 'yes. df.loc() selects by name'},
+         {'answer': 'states.iloc["Idaho"]', 'correct': False, 'feedback': 'iloc is used when you know the index of the row'},
+	 
+     ]
+    },
+	{'question': 'And, what if you also wanted to very specifically select the value of the income?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'states.loc["Idaho","Income"]', 'correct': True, 'feedback': 'yes. df.loc() selects by name'},
+         {'answer': 'states.iloc["Idaho","Income"]', 'correct': False, 'feedback': 'iloc is used when you know the index of the row'},
+	 
+     ]
+    },
+
+]
+
+   

@@ -1,0 +1,38 @@
+[
+	{
+        "question": "What is the minimum pulse in the exercise dataset? Answer as an integer",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 80,
+                "correct": True,
+            },
+ 
+        ]
+    },
+	{
+        "question": "What is the mean of the first 6 pulse values in the exercise dataset? Answer with an integer",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 90,
+                "correct": True,
+            },
+ 
+        ]
+    },
+	{'question': 'How do you change the id column name to ID#?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'exercise.columns[1]="ID#"', 'correct': False, 'feedback': 'No, the column list is not mutable and id is at index 0'},
+         {'answer': 'exercise.rename(columns={"id": "ID#"}, inplace=True)', 'correct': True, 'feedback': 'That works to change it directly'},
+	 {'answer': 'exercise.columns = ["ID#","diet","pulse","time","kind"]', 'correct': True, 'feedback': 'You can change the whole list'},
+	 {'answer': 'Error code. The way to change column names is exercise(columns[0]="ID#", axis=1)', 'correct': False,'feedback': 'not at all'}
+     ]
+    },
+
+]
+
+   
