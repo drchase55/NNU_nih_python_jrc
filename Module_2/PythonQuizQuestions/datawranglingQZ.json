@@ -1,0 +1,42 @@
+[
+    {'question': 'After removing duplicates, how many unique rows are there in the DataFrame?',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 4,
+                "correct": true,
+        ]
+    },
+    {'question': 'What is the highest gene expression level?',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 20.2,
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+}.
+    {'question': 'Which gene appears first in the sorted DataFrame (highest expression)?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'GeneA', 'correct': False},
+         {'answer': 'GeneB', 'correct': True},
+         {'answer': 'GeneC', 'correct': False},
+         {'answer': 'GeneD', 'correct': False},     ]
+    },
+    {'question': 'Which of the following is the correct way to remove duplicates from a Pandas DataFrame?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'df = df.remove_duplicates()', 'correct': False},
+         {'answer': 'df = df.remove_dupes()', 'correct': False},
+         {'answer': 'df = df.drop_duplicates()', 'correct': True},
+         {'answer': 'df = df.clean_duplicates()', 'correct': False},     ]
+    },
+]
+
+
+
+

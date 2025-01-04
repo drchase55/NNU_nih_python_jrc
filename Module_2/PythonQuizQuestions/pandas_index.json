@@ -15,7 +15,24 @@
 	 
      ]
     },
+	{'question': 'What is the maximum expression for sample 30 in the cancer dataset? type 0 for the code to use',
+     'type': 'numeric',
+     "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": 'cancer["30"].describe()'
+            },
+            {
+                "type": "value",
+                "value": 24678,
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
 
+    },
 ]
 
    

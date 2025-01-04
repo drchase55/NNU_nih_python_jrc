@@ -1,0 +1,35 @@
+[
+    {'question': 'What is the mean Ct value across all samples? (to 2 decimal places)',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 24.48,
+                "correct": true,
+        ]
+    },
+  
+    {'question': 'How can you extract all Ct values for Sample1?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'df['Sample1']['Ct_Value']', 'correct': False},
+         {'answer': 'df.iloc[df['Sample'] == 'Sample1', 'Ct_Value']', 'correct': False},
+         {'answer': 'df['Sample' == 'Sample1']', 'correct': False},
+         {'answer': 'df.loc[df['Sample'] == 'Sample1', 'Ct_Value']', 'correct': True},     ]
+    },
+    {'question': 'What is the minimum Ct value for Target GeneA?',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 25.4,
+                "correct": true,
+                "feedback": "Correct"
+            }
+        ]
+}.
+]
+
+
+
+
