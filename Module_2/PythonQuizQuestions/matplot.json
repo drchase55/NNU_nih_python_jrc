@@ -1,0 +1,29 @@
+[
+    {'question': 'Matplotlib requires you to import the library using      import matplotlib.pyplot as plt     to create plots.',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'True', 'correct': False, 'feedback': 'No, importing as plt is just a convenient convention AND Pandas has plotting functions as well.'},
+         {'answer': 'False', 'correct': True, 'feedback': 'While importing as plt is a recommended convenience, it is not needed for matplotlib AND plotting can be done with pandas.'},
+     ]
+    },
+    {'question': 'Which of the following is the correct method to create a scatterplot in Matplotlib?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'plt.scatter(x, y)', 'correct': True},
+         {'answer': 'plt.plot(x, y)', 'correct': False},
+         {'answer': 'plt.scatterplot(x, y)', 'correct': False},
+         {'answer': 'plt.graph(x, y)', 'correct': False},     ]
+    },
+    {'question': 'How can you add a title to a Matplotlib plot?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'plt.add_title("Title")', 'correct': False},
+         {'answer': 'plt.set_title("Title")', 'correct': False},
+         {'answer': 'plt.name("Title")', 'correct': False},
+         {'answer': 'plt.title("Title")', 'correct': True},     ]
+    },
+]
+
+
+
+

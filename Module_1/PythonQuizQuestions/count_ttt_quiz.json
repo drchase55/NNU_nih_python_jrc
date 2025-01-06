@@ -6,13 +6,13 @@
             {
                 "type": "value",
                 "value": 0,
-                "correct": false,
+                "correct": False,
                 "feedback": "TTT (ttt) is found 3 times in the DNA sequences"
             },
             {
                 "type": "value",
                 "value": 3,
-                "correct": true,
+                "correct": True,
                 "feedback": "Correct"
             }
         ]
