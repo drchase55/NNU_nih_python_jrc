@@ -1,0 +1,22 @@
+[
+	{
+        "question": "what is the F-statistic for mut_rate.csv data? (round to the nearest whole number)",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 3,
+                "correct": True,
+             }
+        ]
+    },
+     {'question': 'True/False: We should REJECT the null hypothesis; the mutation rates differ significantly.',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'False', 'correct': True},
+         {'answer': 'True', 'correct': False, "feedback": "Look at the p-value... >0.05!"}
+     ]
+    }
+]
+
+   
