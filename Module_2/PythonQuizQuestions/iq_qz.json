@@ -1,0 +1,29 @@
+[
+	{
+        "question": "what is the narrow sense heritability (slope)? (include the whole coefficient)",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.7592,
+                "correct": True,
+            }
+        ]
+    },
+     {'question': 'True/False: The average parental IQ predicted child IQ better than multiple regression, using AIC',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'False', 'correct': True},
+         {'answer': 'True', 'correct': False, "feedback": "The single regression AIC is smaller, but insignificantly so (199.5 vs. 201"}
+     ]
+    },
+     {'question': 'Bonus question True/False: (look at the regression coefficients from the multiple regression) The motheriq is a better predictor (larger coefficient) of child IQ than fatheriq',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'False', 'correct': False},
+         {'answer': 'True', 'correct': True, "feedback": "Mother: 0.41 vs. Father: 0.27"}
+     ]
+    }
+]
+
+   
