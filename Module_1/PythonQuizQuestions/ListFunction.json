@@ -1,0 +1,53 @@
+[    {
+        "question": 'From the following variable, list1=[7,1,2,(1,2)], what value(s) would be selected if one used list[0]?',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 7,
+                "correct": True
+            },
+        ]
+    },
+    {
+        "question": 'From that variable, what would the variable list1 be after running list1.remove(2)?',
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "[7,1,(1,2)]",
+                "correct": True,
+		"feedback": "No, you can only access the value with the key, not vice versa"
+            },
+            {
+                "code": "[7,2,(1,2)]",
+                "correct": False,
+		"feedback": "The deletion is of the value in position 2, starting with 0, 1, 2"
+            },
+            {
+                "code": "[7,1,1]",
+                "correct": False,
+		"feedback": "The removal is of the value at an index position, not the number 2)"
+            }
+        ]
+    },
+    {
+        "question": 'Starting from list1=[7,1,2,(1,2)], what would be the value of variable list1 be after running list1.append(3)?',
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "list1=[7,1,2,3,(1,2)]",
+                "correct": False,
+            },
+            {
+                "code": "list1=[7,1,2,(1,2)][3]",
+                "correct": False,
+            },
+            {
+                "code": "list1=[7,1,2,(1,2),3]",
+                "correct": True,
+            }
+        ]
+    }
+]
+
+

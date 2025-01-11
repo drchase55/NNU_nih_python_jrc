@@ -12,8 +12,7 @@
             {
                 "type": "value",
                 "value": 3,
-                "correct": True,
-                "feedback": "Correct"
+                "correct": True
             }
         ]
     }

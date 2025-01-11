@@ -5,12 +5,12 @@
         "answers": [
             {
                 "code": "True",
-                "correct": false,
+                "correct": False,
 		"feedback": "No, you can only access the value with the key, not vice versa"
             },
             {
                 "code": "False",
-                "correct": true,
+                "correct": True,
 		"feedback": "Correct, you can only acess the value with the key"
             }
         ]
