@@ -18,36 +18,33 @@
 	- [**License for Data**](#license-for-data)
 
 ## **Overview**
-The module prioritizes practical coding techniques for biological scientists who have limited or no background in programming in Python or other languages. The module also utilizes a blend of short instructional videos, interactive demonstrations, and hands-on exercises to facilitate self-directed learning and knowledge retention. 
+The module prioritizes practical coding techniques for biological scientists who have limited or no background in programming in Python or other languages. The module also utilizes a blend of short instructional videos, interactive demonstrations, and hands-on exercises to facilitate self-directed learning and knowledge retention.
+
+Module 0 provides the background information you need to create a cloud account, to copy the needed tutorials from Github (where they are stored), and how to use Github for your data storage needs.
+
+Module 1 is a set of foundational tutorials in Python
+
+Module 2 expands the python toolbox to NumPy & Pandas (great data handling tools), graphing libraries and statistics for bioinformatics. 
+
+Module 3 demonstrates machine learning in Python for bioinformatics.
+
+Module 4 tutorials show how to save and edit Python scripts to extend your programming outside of Jupyter notebooks for reproducibly running programming tasks.
 
 ## **Background**
 Something useful 
 
 ## **Before Starting**  
-* This Module has been tested on Azure but the method for working with the Notebooks and data on Amazon Web Services (AWS) or Google Cloud Platform (GCP) is similar.
+* This Module has been tested on Azure but the method for working with the Notebooks and data on Amazon Web Services (AWS) or Google Cloud Platform (GCP) is similar. You should determine in which cloud platform you will work. 
 
-* Video directions can be viewed at ____________
-
-1. Create an Azure Account:
-
-* If you don't already have one, sign up for an Azure account at portal.azure.com 
-   - This is a Microsoft product
-* You may need to provide credit card information, but you can start with a free tier that offers $200 of usage. This Intro to Python course, even if you work very slowly, should cost less than $5 of cloud computing time
-
-2. Collect the course materials from GitHub
-* Click on the green **Code** button (above, right)
-* At the bottom of the "local" tab is the option do 'Download Zip'  (download this)
-* On your computer, unzip (or **extract all**) the files
+This Intro to Python course, even if you work very slowly, should cost less than $5 of cloud computing time. You will not likely have to pay for the storage of the notebooks in the Cloud storage. 
 
 ## **Getting Started**
 
-2. Switch to ml.azure.com
-* Jupyter notebooks (the style of this course) are used in the "machine learning studio" (ML) part of Azure. 
-* Choose "notebooks" from the left-hand menu
-* You need to open up a particular "subscription" to which you give a name & just accept the defaults. (Upper right corner of screen) 
-* Upload files to your notebook. 
-  - Use the + button to open up an upload menu. You can select the whole unzipped folder to upload.
   - These files take up very little storage, so you will *probably* not be charged at all for leaving the notebooks in your account. You only get charged (15cents per hour) when actually running code.
+
+You can view the information in Module 0 in your browser by clicking on the Github folder. 
+
+* Video directions can be viewed at ____________
 
 
 
@@ -57,11 +54,12 @@ Something useful
 * Individual notebooks can be run with limited functionality in a web browser (colab.research.google.com)
 
 ## **Architecture Design**
-This course is arranged into 4 modules:
+This course is arranged into 5 modules:
+- Intro to Cloud Computing and Git
 - Foundations of Python
 - Introduction to Data Science in Python
 - Intro to machine learning in Python
-- Advanced topics
+
 
 Within each module, there are several sub-modules (basically, topics) with embedded quizzes.
 
@@ -71,6 +69,8 @@ Each unit also includes a guided 'project' that allows you to practice your skil
 Data will be obtained from online databases (e.g., NCBI) or will be in folders in the submodule. 
 
 ## **Module Outline**
+**Submodule 0 - Intro to Cloud Computing and Git**
+
 **Submodule 1 - Foundations of Python**
 
 Learn core concepts, diverse applications, introductory algorithms, ethical considerations, and data challenges.
@@ -97,7 +97,6 @@ Learn Data Science with NumPy and Pandas
   - Pandas
   - Visualizing Data
   - Inferential Statistics
-  - Data Reduction
 - Project
   - Using data
   - Answers to using data
