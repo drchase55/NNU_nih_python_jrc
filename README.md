@@ -54,34 +54,36 @@ You can view the information in Module 0 in your browser by clicking on the Gith
 * Individual notebooks can be run with limited functionality in a web browser (colab.research.google.com)
 
 ## **Architecture Design**
-This course is arranged into 5 modules:
-- Intro to Cloud Computing and Git
-- Foundations of Python
-- Introduction to Data Science in Python
-- Intro to machine learning in Python
+This course is arranged into 5 modules. It is intended that the user work through each tutorial in succession. 
 
+Within each module, there are several sub-modules (basically, topics) with embedded quizzes. They are numbered to make it easy to know the flow of the topics. Each tutorial ends with a link to the next tutorial, or the project.
 
-Within each module, there are several sub-modules (basically, topics) with embedded quizzes.
-
-Each unit also includes a guided 'project' that allows you to practice your skills in an exercise you might later need to do with your own data or problem.
+Each module includes at least one guided 'project' that allows you to practice your skills with a coding exercise you might later need to do with your own data or problem.
 
 ## **Data**
-Data will be obtained from online databases (e.g., NCBI) or will be in folders in the submodule. 
+Data will be obtained from online databases (e.g., NCBI) or will be in folders in the submodule. You will learn to use the Python tools that can read large data sets without needing to download them to your computer hard drive.
 
 ## **Module Outline**
-**Submodule 0 - Intro to Cloud Computing and Git**
+**Module 0 - Intro to Cloud Computing and Git**
+- Lecture (coming)
 
+- Tutorial 1: Github Download   *how to get the tutorials*
+- Tutorial 2: AzureML  *how to start using a cloud computer*
+- Tutorial 3: Jupyter Notebooks  *how to navigate these tutorials*
+- Tutorial 4: GitHub 4 You   *how Git and Github can be useful for you as a bioinformatician*
+- Tutorial 5: Git
+- 
 **Submodule 1 - Foundations of Python**
 
 Learn core concepts, diverse applications, introductory algorithms, ethical considerations, and data challenges.
 
-- Lecture
+- Lecture (coming)
   - 
 - Tutorials
-  - Python Overview
-  - Variables
-  - Data Structures
-  - Functions
+  - Tutorial 1: Python Overview
+  - Tutorial 2: Variables
+  - Tutorial 3: Data Structures
+  - Tutorial 4: Functions
 - Project
   - Using NCBI sequences
   - SOLUTIONS for Using NCBI sequences
@@ -93,23 +95,26 @@ Learn Data Science with NumPy and Pandas
 - Lecture
   - 
 - Tutorial
-  - NumPy
-  - Pandas
-  - Visualizing Data
-  - Inferential Statistics
+  - Module 2: Overview
+  - Tutorial 1: NumPy
+  - Tutorial 2: Pandas
+     - Tutorial 2a: Pandas PDB Exercise
+     - Tutorial 2b: Pandas RNA-seq Guided Excercise
+  - Tutorial 3:Visualizing Data
+  - Tutorial 4: Inferential Statistics
 - Project
-  - Using data
-  - Answers to using data
+  - Tutorial 6a Using data
+  - Tutorial 6bProject with solutions
 
 **Submodule 3 - **
 
 Learn about
 
-- Tutorial
-  - ML 
-  - 
+- Tutorials
+  - Tutorial 1: Data Reduction
+  - Tutorial 2: Machine Learning
 - Project
-	- 
+	- Identifying Promoters
 
 **Submodule 4 - Developing and deploying a GUI**	 
 
