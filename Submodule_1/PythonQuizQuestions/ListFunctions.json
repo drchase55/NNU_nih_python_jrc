@@ -1,0 +1,23 @@
+[
+{
+    "": "Match the appropriate output to the code related to list1=[7,1,2,(1,2)]:",
+    "questions": [
+        {
+            "question": "list1[0]",
+            "answer": "'7'",
+            "explanation": "Hint: List indices start at 0."
+        },
+        {
+            "question": "list1.append(3)",
+            "answer": "[7,1,2,(1,2),3]",
+            "explanation": "Hint: Append adds an element to the end of the list."
+        },
+        {
+            "question": "list1.remove(2)",
+            "answer": "[7,1,(1,2)]",
+            "explanation": "Hint: this will be the 3rd element!"
+        }
+    ],
+    "distractors": ["Batman", "1", "[7,1,2,3]", "[7,1,(1)]"]
+}
+]
