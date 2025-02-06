@@ -7,4 +7,13 @@
          {'code': 'Nothing', 'correct': True, 'feedback': 'The # tells Python to ignore things after #'}
      ]
     },
+    
+    {'question': 'What is the purpose of the help(x) function in Python??',
+     'type': 'multiple_choice',
+     'answers': [
+         {'code': 'To execute a Python program, X', 'correct': False},
+         {'code': 'To display information about function or tool X', 'correct': True},
+	 {'code': 'To fix errors in the code of X', 'correct': False},
+        ]
+    },
 ]
