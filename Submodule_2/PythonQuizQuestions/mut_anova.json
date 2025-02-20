@@ -6,15 +6,15 @@
             {
                 "type": "value",
                 "value": 3,
-                "correct": True,
+                "correct": true,
              }
         ]
     },
      {'question': 'True/False: We should REJECT the null hypothesis; the mutation rates differ significantly.',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'False', 'correct': True},
-         {'answer': 'True', 'correct': False, "feedback": "Look at the p-value... >0.05!"}
+         {'answer': 'False', 'correct': true},
+         {'answer': 'True', 'correct': false, "feedback": "Look at the p-value... >0.05!"}
      ]
     }
 ]

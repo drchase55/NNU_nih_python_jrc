@@ -6,7 +6,7 @@
             {
                 "type": "value",
                 "value": 3.44,
-                "correct": True,
+                "correct": true,
                 "feedback": "Great job! "
             },
         ]
@@ -15,8 +15,8 @@
 	"question": 'You do not have to use dummy coding to answer this question. You could have used count = lep_seq("K")?',
 	"type": "multiple_choice",
 	"answers":  [
-		{'answer': 'True', 'correct': True, 'feedback': 'BUT, we would not have the practice you want for harder tasks'},
-	 	{'answer': 'False', 'correct': False,'feedback': 'That simple code works. BUT, we would not have the practice you want for harder tasks'}
+		{'answer': 'True', 'correct': true, 'feedback': 'BUT, we would not have the practice you want for harder tasks'},
+	 	{'answer': 'False', 'correct': false,'feedback': 'That simple code works. BUT, we would not have the practice you want for harder tasks'}
      ]
     },
 ]

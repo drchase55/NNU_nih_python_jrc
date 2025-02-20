@@ -5,17 +5,17 @@
             {
                 "type": "value",
                 "value": 24.48,
-                "correct": True}
+                "correct": true}
         ]
     },
   
     {'question': 'How can you extract all Ct values for Sample1?',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'df["Sample1"]["Ct_Value"]', 'correct': False},
-         {'answer': 'df.iloc[df["Sample"] == "Sample1", "Ct_Value"]', 'correct': False},
-         {'answer': 'df["Sample" == "Sample1"]', 'correct': False},
-         {'answer': 'df.loc[df["Sample"] == "Sample1"a, "Ct_Value"]', 'correct': True},     ]
+         {'answer': 'df["Sample1"]["Ct_Value"]', 'correct': false},
+         {'answer': 'df.iloc[df["Sample"] == "Sample1", "Ct_Value"]', 'correct': false},
+         {'answer': 'df["Sample" == "Sample1"]', 'correct': false},
+         {'answer': 'df.loc[df["Sample"] == "Sample1"a, "Ct_Value"]', 'correct': true},     ]
     },
     {'question': 'What is the minimum Ct value for Target GeneA?',
         "type": "numeric",
@@ -23,7 +23,7 @@
             {
                 "type": "value",
                 "value": 25.4,
-                "correct": True,
+                "correct": true,
                 "feedback": "Correct"
             }
         ]

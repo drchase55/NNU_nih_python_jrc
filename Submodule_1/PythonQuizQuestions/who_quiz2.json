@@ -24,5 +24,32 @@
                 "feedback": "Hint... once you import the sequence, look at xyz.description to see the name, or look at the whole file"
             }
         ]
+    },
+    {
+        "question": "What amino acid is in position 132 of the protein AAA39318.1?",
+        "type": "multiple_choice",
+        "answers": [
+             {
+                "answer": "A",
+                "correct": false,
+                "feedback": "Incorrect, try again."
+            },
+            {
+                "answer": "G",
+                "correct": true,
+                "feedback": "Correct. Great coding"
+            },
+            {
+                "answer": "L",
+                "correct": false,
+                "feedback": "Incorrect. You probably forgot that python starts with index 0. Try again"
+            },
+            {
+                "answer": "Please give me a hint",
+                "correct": false,
+                "feedback": "Hint... use xyz.seq[ ] with the index number in the brackets"
+            }
+        ]
     }
+
 ]

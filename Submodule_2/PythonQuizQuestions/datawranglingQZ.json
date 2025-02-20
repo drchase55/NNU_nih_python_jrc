@@ -6,6 +6,7 @@
                 "type": "value",
                 "value": 4,
                 "correct": true,
+            }
         ]
     },
     {'question': 'What is the highest gene expression level?',
@@ -18,25 +19,24 @@
                 "feedback": "Correct"
             }
         ]
-}.
+    },
     {'question': 'Which gene appears first in the sorted DataFrame (highest expression)?',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'GeneA', 'correct': False},
-         {'answer': 'GeneB', 'correct': True},
-         {'answer': 'GeneC', 'correct': False},
-         {'answer': 'GeneD', 'correct': False},     ]
+         {'answer': 'GeneA', 'correct': false},
+         {'answer': 'GeneB', 'correct': true},
+         {'answer': 'GeneC', 'correct': false},
+         {'answer': 'GeneD', 'correct': false},     
+     ]
     },
     {'question': 'Which of the following is the correct way to remove duplicates from a Pandas DataFrame?',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'df = df.remove_duplicates()', 'correct': False},
-         {'answer': 'df = df.remove_dupes()', 'correct': False},
-         {'answer': 'df = df.drop_duplicates()', 'correct': True},
-         {'answer': 'df = df.clean_duplicates()', 'correct': False},     ]
+         {'answer': 'df = df.remove_duplicates()', 'correct': false},
+         {'answer': 'df = df.remove_dupes()', 'correct': false},
+         {'answer': 'df = df.drop_duplicates()', 'correct': true},
+         {'answer': 'df = df.clean_duplicates()', 'correct': false},     
+      ]
     },
 ]
-
-
-
 

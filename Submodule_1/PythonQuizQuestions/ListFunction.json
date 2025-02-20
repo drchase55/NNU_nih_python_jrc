@@ -5,7 +5,7 @@
             {
                 "type": "value",
                 "value": 7,
-                "correct": True
+                "correct": true
             },
         ]
     },
@@ -15,17 +15,17 @@
         "answers": [
             {
                 "code": "[7,1,(1,2)]",
-                "correct": True,
+                "correct": true,
 		"feedback": "No, you can only access the value with the key, not vice versa"
             },
             {
                 "code": "[7,2,(1,2)]",
-                "correct": False,
+                "correct": false,
 		"feedback": "The deletion is of the value in position 2, starting with 0, 1, 2"
             },
             {
                 "code": "[7,1,1]",
-                "correct": False,
+                "correct": false,
 		"feedback": "The removal is of the value at an index position, not the number 2)"
             }
         ]
@@ -36,15 +36,15 @@
         "answers": [
             {
                 "code": "list1=[7,1,2,3,(1,2)]",
-                "correct": False,
+                "correct": false,
             },
             {
                 "code": "list1=[7,1,2,(1,2)][3]",
-                "correct": False,
+                "correct": false,
             },
             {
                 "code": "list1=[7,1,2,(1,2),3]",
-                "correct": True,
+                "correct": true,
             }
         ]
     }

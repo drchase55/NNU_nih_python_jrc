@@ -1,0 +1,113 @@
+[
+	{
+        "question": "Type your numerical response. What is the length of the human ADH1A gene (NM_000667.4)? For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 1454. Hint: to get the length, use len(xxx.seq) for whatever you named the imported file"
+            }, 
+            {
+                "type": "value",
+                "value": 1454,
+                "correct": true,
+                "feedback": "Correct!"
+            }            
+        ]
+    },
+{
+        "question": "Type your numerical response. What is the length of the mink ADH E subunit (XM_044226065.1)? For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 1545 and can be obtained by print(len(minkADH.seq), with your variable for the seq"
+            }, 
+            {
+                "type": "value",
+                "value": 1545,
+                "correct": true,
+                "feedback": "Correct!"
+            }            
+        ]
+    },
+	{
+        "question": "Type your numerical response. What is the GC% for the human ADH1A subunit (NM_000667.4)? Truncate your answer to 1 decimal place (as in 23.2%). For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 45.5%."
+            }, 
+            {
+                "type": "value",
+                "value": 45.5,
+                "correct": true,
+                "feedback": "Correct! Great work"
+            }            
+        ]
+    },
+	{
+        "question": "Type your numerical response. What is the GC% for the mink ADH E subunit (XM_044226065.1)? Truncate your answer to 1 decimal place (as in 21.2%). For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "the answer is 45.6%."
+            }, 
+            {
+                "type": "value",
+                "value": 45.6,
+                "correct": true,
+                "feedback": "Correct! Great work"
+            }            
+        ]
+    },
+    {
+        "question": "BONUS: Type your numerical response. How many different alignments were identified between the human ADH1A and mink ADH E subunit?? For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "There are 18 different alignments with the same score. You should be using pairwise2"
+            }, 
+            {
+                "type": "value",
+                "value": 18,
+                "correct": true,
+                "feedback": "Correct! Great coding!"
+            }            
+        ]
+    },
+    {
+        "question": "BONUS: Type your numerical response. What is the GLOBAL alignment score for the human ADH1A and mink ADH E subunit?? For the correct answer, enter 0.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0,
+                "correct": false,
+                "feedback": "The Global alignment score answer is 1223."
+            }, 
+            {
+                "type": "value",
+                "value": 1223,
+                "correct": true,
+                "feedback": "Correct! Great work"
+            }            
+        ]
+    }
+
+]
+
+   

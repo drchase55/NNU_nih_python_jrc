@@ -6,7 +6,7 @@
             {
                 "type": "value",
                 "value": -8.55,
-                "correct": True,
+                "correct": true,
                 "feedback": "Correct! That is a large value!"
             }
         ]
@@ -14,8 +14,8 @@
      {'question': 'True/False: The differences between the two groups are significant (p<0.01)',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'False', 'correct': False},
-         {'answer': 'True', 'correct': True, "feedback": "Correct! p=3.2e-15"}
+         {'answer': 'False', 'correct': false},
+         {'answer': 'True', 'correct': true, "feedback": "Correct! p=3.2e-15"}
      ]
     }
 ]

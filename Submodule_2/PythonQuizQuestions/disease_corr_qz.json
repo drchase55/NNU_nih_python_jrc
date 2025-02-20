@@ -2,17 +2,17 @@
      {'question': 'True/False: We need to use Spearman correlations for this dataset.',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'False', 'correct': True},
-         {'answer': 'True', 'correct': False, "feedback": "While you CAN, all the datasets were normally distributed so you can use Pearson"}
+         {'answer': 'False', 'correct': true},
+         {'answer': 'True', 'correct': false, "feedback": "While you CAN, all the datasets were normally distributed so you can use Pearson"}
      ]
     },
     {'question': 'Which of the factors is most strongly associated with increased disease severity?',
      'type': 'multiple_choice',
      'answers': [
-         {'answer': 'decreased protein abundance', 'correct': False},
-         {'answer': 'increased protein abundance', 'correct': False},
-         {'answer': 'decreased gene expression', 'correct': True, 'feedback': 'Yes, the correlation coefficient for gene expression is -0.87'},
-         {'answer': 'increased gene expression', 'correct': False},
+         {'answer': 'decreased protein abundance', 'correct': false},
+         {'answer': 'increased protein abundance', 'correct': false},
+         {'answer': 'decreased gene expression', 'correct': true, 'feedback': 'Yes, the correlation coefficient for gene expression is -0.87'},
+         {'answer': 'increased gene expression', 'correct': false},
      ]
     }
 ]

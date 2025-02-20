@@ -6,7 +6,7 @@
             {
                 "type": "value",
                 "value": 3.44,
-                "correct": True,
+                "correct": true,
                 "feedback": "Great job! "
             },
         ]
@@ -18,7 +18,7 @@
             {
                 "type": "value",
                 "value": 3.11,
-                "correct": True,
+                "correct": true,
                 "feedback": "Great job! "
             },
         ]
