@@ -68,8 +68,9 @@ Data will be obtained from online databases (e.g., NCBI) or will be in folders i
 - Lecture (coming)
 
 - Tutorial 1: Github Download   *how to get the tutorials*
-- Tutorial 2: AzureML  *how to start using a cloud computer*
-- Tutorial 3: Jupyter Notebooks  *how to navigate these tutorials*
+- Tutorial 2: Jupyter Notebooks  *how to navigate these tutorials*
+- Tutorial 3: AzureML  *how to start using a cloud computer*
+- Tutorial 3b: AzureML *CloudLab details*
 - Tutorial 4: GitHub 4 You   *how Git and Github can be useful for you as a bioinformatician*
 - Tutorial 5: Git
 - 
@@ -85,8 +86,8 @@ Learn core concepts, diverse applications, introductory algorithms, ethical cons
   - Tutorial 3: Data Structures
   - Tutorial 4: Functions
 - Project
-  - Using NCBI sequences
-  - SOLUTIONS for Using NCBI sequences
+  - Tutorial 5: Using NCBI sequences
+  - Tutorial 5 Project Answer (SOLUTIONS for Using NCBI sequences)
 
 **Submodule 2 - Intro to Data Science with Python**
 
@@ -108,23 +109,8 @@ Learn Data Science with NumPy and Pandas
 
 **Submodule 3 - **
 
-Learn about
+Learn about Python Programming
 
-- Tutorials
-  - Tutorial 1: Data Reduction
-  - Tutorial 2: Machine Learning
-- Project
-	- Identifying Promoters
-
-**Submodule 4 - Developing and deploying a GUI**	 
-
-- Lecture
-  - 
-  - 
-- Tutorial
-	- 
-- Project
-	- 
 
 ## **Funding**
 The creation of this training module was supported by the National Institute Of General Medical Sciences of the National Institutes of Health under Award Number *******. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of any of the funding agencies.
