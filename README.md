@@ -26,12 +26,10 @@ Module 1 is a set of foundational tutorials in Python
 
 Module 2 expands the python toolbox to NumPy & Pandas (great data handling tools), graphing libraries and statistics for bioinformatics. 
 
-Module 3 demonstrates machine learning in Python for bioinformatics.
-
-Module 4 tutorials show how to save and edit Python scripts to extend your programming outside of Jupyter notebooks for reproducibly running programming tasks.
+Module 3  tutorials show how to save and edit Python scripts to extend your programming outside of Jupyter notebooks for reproducibly running programming tasks.
 
 ## **Background**
-Something useful 
+
 
 ## **Before Starting**  
 * This Module has been tested on Azure but the method for working with the Notebooks and data on Amazon Web Services (AWS) or Google Cloud Platform (GCP) is similar. You should determine in which cloud platform you will work. 
