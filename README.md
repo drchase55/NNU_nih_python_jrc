@@ -114,5 +114,5 @@ Learn about Python Programming
 The creation of this training module was supported by the National Institute Of General Medical Sciences of the National Institutes of Health under Award Number *******. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of any of the funding agencies.
 
 ## **License for Data**
-Text and materials are licensed under a Creative Commons ******************. The license allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it.
+Text and materials are licensed under a Creative Commons. The [license](license) allows you to copy, remix and redistribute any of our publicly available materials, under the condition that you attribute the work (details in the license) and do not make profits from it.
 
