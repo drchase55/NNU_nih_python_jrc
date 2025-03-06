@@ -1,0 +1,31 @@
+[
+     {'question': 'What is the best definition of an "object" in Python?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'A function that belongs to a class', 'correct': false},
+         {'answer': 'An instance of a class that has attributes and behaviors', 'correct': true},
+         {'answer': 'A blueprint for creating classes', 'correct': false},
+         {'answer': 'A variable that stores multiple values', 'correct': false},     
+     ]
+    },
+    {'question': 'What does "inheritance" allow in object-oriented programming?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'A class to pass down properties and methods to another class', 'correct': true},
+         {'answer': 'An object to store multiple attributes', 'correct': false},
+         {'answer': 'A function to be reused multiple times', 'correct': false},
+         {'answer': 'A variable to be accessed from any part of the program', 'correct': false},     
+      ]
+    },
+    {'question': 'What is a "class" in Python?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'A function that performs an action on data', 'correct': false},
+         {'answer': 'A specific instance of an object with unique attributes', 'correct': false},
+         {'answer': 'A loop structure used to iterate over a sequence', 'correct': false},
+         {'answer': 'A blueprint for creating objects that defines attributes and methods', 'correct': true},     
+      ]
+    },
+]
+
+

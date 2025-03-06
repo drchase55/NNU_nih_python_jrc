@@ -1,0 +1,37 @@
+[
+    {'question': 'What is the velocity of Hexokinase at substrate=0.05? For the code, enter 0',
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2.5,
+                "correct": true,
+            },
+	    {   "type": "value",
+                "value": 0,
+                "correct": false,
+		"feedback": "print(enzyme1.calculate_velocity(0.05))"
+	    }
+        ]
+    },
+    {'question': 'Which of the following changes would you need to add to __init__ to add the concentration parameter to the enzyme defiinition?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'add enzyme2.concentration = concentration', 'correct': false},
+         {'answer': 'edit to say def __init__(self, name, ec_number, km, vmax, concentration)', 'correct': true},
+         {'answer': 'add self.concentration = concentration', 'correct': true},
+         {'answer': 'none of these', 'correct': false},     
+     ]
+    },
+    {'question': 'Which of the following would create a new method to take a provided parameter?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'def change_concentration(concentration)', 'correct': false},
+         {'answer': 'def change concentration(self, concentration): ', 'correct': false, 'feedback': 'the system reads def change due to the space'},
+         {'answer': 'def change_concentration(self, concentration) ', 'correct': false, 'feedback': 'missing a colon'},
+         {'answer': 'def change_concentration(self, concentration): ', 'correct': true},     
+      ]
+    },
+]
+
+
