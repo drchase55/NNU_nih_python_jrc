@@ -1,0 +1,11 @@
+[
+    {'question': 'If you add ALLOWED_DIAGNOSES={"healthy","copd"} before p1 above, COPD will become a valid diagnosis.',
+        "type": "multiple_choice",
+        "answers": [
+            {"answer":'True', "correct": false, "feedback": 'The variable inside the class is actually self.ALLOWED_DIAGNOSES so the global variable ALLOWED_DIAGNOSES is a different variable.' },    
+	    {"answer":'False', "correct": true, "feedback": 'GOOD! To make the Patient class use the global variable, that would have to be defined with global ALLOWED_DIAGNOSES inside __init__' }
+        ]
+    },
+]
+
+

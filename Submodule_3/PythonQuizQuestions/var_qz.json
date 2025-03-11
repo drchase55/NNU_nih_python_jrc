@@ -1,0 +1,41 @@
+[
+    {'question': 'A global variable can be accessed from anywhere in a Python program.',
+        "type": "multiple_choice",
+        "answers": [
+            {"answer":'True', "correct": true, "feedback": 'Global variables exist throughout the program and can be accessed from any function or class unless explicitly modified inside a function using global.' },    
+	    {   "answer":'False', "correct": false, "feedback": 'Global variables exist throughout the program and can be accessed from any function or class unless explicitly modified inside a function using global.' }
+        ]
+    },
+    {'question': 'How do you correctly access & print the class variable in the Example class shown above? print(____)',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': 'self.value', 'correct': false},
+         {'answer': 'Example.value', 'correct': true},
+         {'answer': 'obj.value()', 'correct': false, "feedback": 'This is not the class value but the instance variable'},
+         {'answer': 'super().value', 'correct': false},     
+     ]
+    },
+    {'question': 'What value would be shown for the class variable?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': '10', 'correct': true},
+         {'answer': '20', 'correct': false},
+       ]
+    },
+    {'question': 'What value would be shown if you printed the instance variable?',
+     'type': 'multiple_choice',
+     'answers': [
+         {'answer': '10', 'correct': false},
+         {'answer': '20', 'correct': true},
+       ]
+    },
+    {'question': 'print(obj.mutation) would yield "rs45677"',
+     'type': 'multiple_choice',
+     'answers': [
+          {'answer': 'True', 'correct': false, "feedback": 'notice that in the code above, self.__mutation creates a private variable'},
+          {'answer': 'False', 'correct': true},
+       ]
+    },
+]
+
+
