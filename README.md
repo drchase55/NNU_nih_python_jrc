@@ -30,31 +30,41 @@ Module 3  tutorials show how to save and edit Python scripts to extend your prog
 
 ## **Background**
 
+Bioinformatics enables the extraction of meaningful insights from biological data, contributes to advancements in medicine and biotechnology, and plays a crucial role in understanding the complexities of living organisms. As biological research continues to generate large datasets, skills in bioinformatics are increasingly valuable for students, researchers, and professionals in the life sciences. Biological data science jobs in industry always require experience with using and creating NGS pipelines, proficiency in Python and/or R, and familiarity with git version control. The centrality of these computer-aided approaches in the lab and industry demands the increased incorporation of these skills in undergraduate curricula through advanced research projects. 
+
+The enormous data sets used in and created by bioinformatics studies, including metadata, are expected to be made available to the public according to FAIR principles (Wilkinson et al, 2016). Starting in 2023, all NSF and NIH grantees are expected to develop and maintain a public data and tool repository in the cloud. While the deposition of DNA sequences to the NCBI GenBank is familiar to many biology researchers, data sharing of other types faces technical and motivational barriers for researchers. Using general repositories, and how both data and bioinformatics pipelines can be managed by git, is quite unfamiliar to most biologists. We believe that offering GitHub as a viable solution to the problem of identifying and using a data repository would be a strong incentive for researchers, especially those who are computer science novices, to utilize our proposed training module.
+
+With the generous support of the NIH NIGMS Cloud Computing project, we have created a module to teach foundational Git tools and Introductory Python Programming for Bioinformatics. It is intended that this will give you a foundation for using more detailed and advanced Modules in the NIGMS sandbox which rely on Python. Furthermore, you will have the tools you need for storing, conveniently, your data on GitHub according to FAIR principles.
 
 ## **Before Starting**  
 * This Module has been tested on Azure but the method for working with the Notebooks and data on Amazon Web Services (AWS) or Google Cloud Platform (GCP) is similar. You should determine in which cloud platform you will work. 
 
-This Intro to Python course, even if you work very slowly, should cost less than $5 of cloud computing time. You will not likely have to pay for the storage of the notebooks in the Cloud storage. 
+This Intro to Python course, even if you work very slowly, should cost less than $5 of cloud computing time. You will also have compute storage charges, so you should download and delete these tutorials from the cloud when you have finished using them.
 
 ## **Getting Started**
 
-  - These files take up very little storage, so you will *probably* not be charged at all for leaving the notebooks in your account. You only get charged (15cents per hour) when actually running code.
+You can view the information in Module 0 in your browser by clicking on the Github folder (above) for Submodule 0. It provides instructions on how to set up a cloud account to use this, and other, tutorials. 
 
-You can view the information in Module 0 in your browser by clicking on the Github folder. 
+Additional information on how to [create an Azure account](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAzureMLNotebooks.md) is provided by the NIGMS in abbreviated form for those with a subscription to Azure.
 
 * Video directions can be viewed at ____________
-
 
 
 ## **Software Requirements**
 * If you use the cloud, **you do not need any additional software**.
 * These notebooks *can* be used in a desktop setting with a free download of Anaconda (anaconda.com) using their Jupyter Notebooks module. 
 * Individual notebooks can be run with limited functionality in a web browser (colab.research.google.com)
+* It is also possible to use GitHub's VSCode functions.
 
 ## **Architecture Design**
-This course is arranged into 5 modules. It is intended that the user work through each tutorial in succession. 
+This course is arranged into 4 sub-modules (0 through 3).
 
-Within each module, there are several sub-modules (basically, topics) with embedded quizzes. They are numbered to make it easy to know the flow of the topics. Each tutorial ends with a link to the next tutorial, or the project.
+- Submodule 0 is intended as a non-technical introduction so that you can do more technical things (e.g., create a cloud account and copy the tutorials)
+- Submodule 1 is the very basic Python introduction for those who are new to programming in general or just new to how the Python language works.
+- Submodule 2 builds on the foundations of Python in Submodule 1 to introduce powerful tools for large data sets.
+- Submodule 3 introduces key object-oriented programming tools. Its tutorials also build on Submodule 1 to give you the skills to build your own python tools.
+
+Within each submodule, there are several sub-modules (basically, topics) with embedded quizzes. They are numbered to make it easy to know the flow of the topics. Each tutorial ends with a link to the next tutorial, or the project.
 
 Each module includes at least one guided 'project' that allows you to practice your skills with a coding exercise you might later need to do with your own data or problem.
 
@@ -69,9 +79,10 @@ Data will be obtained from online databases (e.g., NCBI) or will be in folders i
 - Tutorial 2: Jupyter Notebooks  *how to navigate these tutorials*
 - Tutorial 3: AzureML  *how to start using a cloud computer*
 - Tutorial 3b: AzureML *CloudLab details*
-- Tutorial 4: GitHub 4 You   *how Git and Github can be useful for you as a bioinformatician*
-- Tutorial 5: Git
-- 
+- Tutorial 4: GitHub 4 You *how Git and Github can be useful for you as a bioinformatician*
+- Tutorial 5: Creating & Using a Github account
+- Tutorial 6: Using GitHub as a FAIR data solution
+  
 **Submodule 1 - Foundations of Python**
 
 Learn core concepts, diverse applications, introductory algorithms, ethical considerations, and data challenges.
@@ -93,8 +104,8 @@ Learn Data Science with NumPy and Pandas
 
 - Lecture
   - 
-- Tutorial
-  - Module 2: Overview
+- Tutorials
+  - Tutorial 0: Overview
   - Tutorial 1: NumPy
   - Tutorial 2: Pandas
      - Tutorial 2a: Pandas PDB Exercise
@@ -107,7 +118,10 @@ Learn Data Science with NumPy and Pandas
 
 **Submodule 3 - **
 
-Learn about Python Programming
+- Tutorial 0: Overview of OOP
+- Tutorial 1: Introduction to Python OOP
+- Tutorial 2: OOP2
+- Project: Patient data import with the Patient Class
 
 
 ## **Funding**
