@@ -20,13 +20,13 @@
 ## **Overview**
 The module prioritizes practical coding techniques for biological scientists who have limited or no background in programming in Python or other languages. The module also utilizes a blend of short instructional videos, interactive demonstrations, and hands-on exercises to facilitate self-directed learning and knowledge retention.
 
-Module 0 provides the background information you need to create a cloud account, to copy the needed tutorials from Github (where they are stored), and how to use Github for your data storage needs.
+Module 0 provides the background information you need to create a Cloud Computing account at Azure, to copy the needed tutorials from Github (where they are stored), and how to use Github for your data storage needs.
 
 Module 1 is a set of foundational tutorials in Python
 
-Module 2 expands the python toolbox to NumPy & Pandas (great data handling tools), graphing libraries and statistics for bioinformatics. 
+Module 2 expands the Python toolbox to NumPy & Pandas (great data handling tools), graphing libraries and statistics for bioinformatics. 
 
-Module 3  tutorials show how to save and edit Python scripts to extend your programming outside of Jupyter notebooks for reproducibly running programming tasks.
+Module 3 tutorials show how to save and edit Python scripts to extend your programming outside of Jupyter notebooks for reproducibly running programming tasks.
 
 ## **Background**
 
@@ -39,7 +39,7 @@ With the generous support of the NIH NIGMS Cloud Computing project, we have crea
 ## **Before Starting**  
 * This Module has been tested on Azure but the method for working with the Notebooks and data on Amazon Web Services (AWS) or Google Cloud Platform (GCP) is similar. You should determine in which cloud platform you will work. 
 
-This Intro to Python course, even if you work very slowly, should cost less than $5 of cloud computing time. You will also have compute storage charges, so you should download and delete these tutorials from the cloud when you have finished using them.
+This *Introduction to Python* course, even if you work very slowly, should cost less than $5 of cloud computing time. You will also have compute storage charges, so you should download and delete these tutorials from the cloud when you have finished using them.
 
 ## **Getting Started**
 
@@ -53,8 +53,9 @@ Additional information on how to [create an Azure account](https://github.com/NI
 ## **Software Requirements**
 * If you use the cloud, **you do not need any additional software**.
 * These notebooks *can* be used in a desktop setting with a free download of Anaconda (anaconda.com) using their Jupyter Notebooks module. 
-* Individual notebooks can be run with limited functionality in a web browser (colab.research.google.com)
+* Individual notebooks can be run with limited functionality in a web browser (e.g., colab.research.google.com)
 * It is also possible to use GitHub's VSCode functions.
+* Module 0 provides instructions to download and use Github Desktop.
 
 ## **Architecture Design**
 This course is arranged into 4 sub-modules (0 through 3).
@@ -64,7 +65,7 @@ This course is arranged into 4 sub-modules (0 through 3).
 - Submodule 2 builds on the foundations of Python in Submodule 1 to introduce powerful tools for large data sets.
 - Submodule 3 introduces key object-oriented programming tools. Its tutorials also build on Submodule 1 to give you the skills to build your own python tools.
 
-Within each submodule, there are several sub-modules (basically, topics) with embedded quizzes. They are numbered to make it easy to know the flow of the topics. Each tutorial ends with a link to the next tutorial, or the project.
+Within each submodule, there are several tutorials (basically, topics) with embedded quizzes. They are numbered to make it easy to know the flow of the topics. Each tutorial ends with a link to the next tutorial, or a link to the guided, summative project.
 
 Each module includes at least one guided 'project' that allows you to practice your skills with a coding exercise you might later need to do with your own data or problem.
 
@@ -80,8 +81,8 @@ Data will be obtained from online databases (e.g., NCBI) or will be in folders i
 - Tutorial 3: AzureML  *how to start using a cloud computer*
 - Tutorial 3b: AzureML *CloudLab details*
 - Tutorial 4: GitHub 4 You *how Git and Github can be useful for you as a bioinformatician*
-- Tutorial 5: Creating & Using a Github account
-- Tutorial 6: Using GitHub as a FAIR data solution
+- Tutorial 5: Managing Git *how to manage your Github repositories for multiple users*  
+- Tutorial 6: Digital Object Identifiers for GitHub *Creating citable identifiers for your data at Zenodo*
   
 **Submodule 1 - Foundations of Python**
 
