@@ -1,13 +1,14 @@
-# Tutorial 6: Using Git 
+# Tutorial 6: Using GitHub Desktop for FAIR Data Management in Research Labs
 ---------------------------------------------------------------
 
 ## Overview
-Git is a powerful version control tool that helps track changes to your data files over time. While Git is traditionally used for computer code, it can be just as effective for managing structured data by recording each change, allowing you to compare versions and collaborate efficiently.
-
+Git is a powerful version control tool that helps track changes to your data files over time. While Git is traditionally used for computer code, it can be just as effective for managing structured data by recording each change, allowing you to compare versions and collaborate efficiently. 
 
 ## Learning Objectives
+By the end of this lesson, you will be able to:
+✅ Set up GitHub Desktop to track data files (Excel, CSV, etc.)
+✅ Use GitHub Desktop to version control research data
 
-## Getting Started
 
 --------------------------------------------------------------
 ## Why use Git for your research lab *DATA?*
@@ -43,3 +44,15 @@ Git can be integrated with data pipelines to:
 - Scientific research relies on reproducibility—other researchers should be able to replicate results.
 - Keeping a clear history of data versions, updates, and methodology changes ensures that future researchers can trust and understand the dataset.
 - Many funding agencies and journals now require data provenance tracking, which Git provides naturally.
+
+How Git Supports Automated and Long-Term Data Tracking
+Now that we understand why research labs need version control, let's set up Git to support long-term data collection.
+
+## Step 1 Setting Up Git for a Research Lab Project
+1️⃣ Create a Dedicated Data Repository on GitHub
+
+Example: long-term-ecology-data
+
+This repository will store all datasets, metadata, and analysis scripts in one place.
+
+2️⃣ Clone the Repository to a Local Computer

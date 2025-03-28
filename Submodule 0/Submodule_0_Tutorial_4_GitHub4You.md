@@ -2,16 +2,17 @@
 ----------------------------------------------------------
 
 ## Overview
+Git is a powerful version control tool that helps track changes to your data files over time. While Git is traditionally used for computer code, it can be just as effective for managing structured data by recording each change, allowing you to compare versions and collaborate efficiently. 
 
 ## Learning Objectives
 By the end of this lesson, you will be able to:
 
-- Define FAIR data practices
-- Understand the purpose of git tools
-- Create a GitHub account
-- Set up Git on your local computer
-- Create your first repository
-- Push code to GitHub
+✅ Define FAIR data practices
+✅ Understand the purpose of git tools
+✅ Create a GitHub account
+✅ Set up GitHub Desktop to track data files (Excel, CSV, etc.)
+✅ Create your first repository
+✅Push data to GitHub (your first "commit")
 
 # FAIR Data principles
 
@@ -24,8 +25,19 @@ The FAIR data principles are:
 - Interoperable: Data should use standardized formats and vocabularies to enable integration with other datasets.
 - Reusable: Data should be well-documented with clear licensing to support reuse and replication in different contexts.
 
+## Why Research Labs Need Version Control for Data? 
+Research labs handle large datasets, evolving protocols, and multiple contributors over years. Without version control, it’s easy to:
+❌ Lose track of previous datasets when files are updated.
+❌ Overwrite important files when multiple people are working on them.
+❌ Forget why a dataset changed, especially if students and researchers rotate over time.
 
+How can GitHub Desktop helps with these challenges in data management
+✅ Automatic version history for all data files.
+✅ Clear tracking of protocol changes in README files.
+✅ Collaboration with multiple researchers while preventing data loss.
+✅ Integration with automated checks for data integrity (e.g., missing values in CSVs).
 
+The key word: *AUTOMATICALLY* though we'll not get to THAT until the next tutorial.
 
 ### Step 1: Creating a GitHub Account
 
@@ -39,68 +51,67 @@ To get started, you need to sign up for a free GitHub account. This will give yo
 - Click Create an account and follow the instructions.
 - GitHub will send a verification email. Click the link in the email to verify your account.
 
-## Step 2: Setting Up Git on Your Local Computer
-While GitHub is an online platform for hosting code, Git is the tool that allows you to track and manage changes in your projects. Git is a version control system that records changes to files, allowing multiple people to work on the same project without conflicts.
+## Step 2: Setting Up a GitHub Account & Installing GitHub Desktop
 
-Before you can push code or other files to GitHub, you need to install **Git** on your computer. This will allow you to work with your projects locally and sync them with GitHub. The installation process depends on your operating system.
-
-### Instructions for Windows
-- Download Git for Windows from git-scm.com.
-- Run the installer and follow the default settings.
-
-### Instructions for Mac
-- Open the Terminal and type:
-
-    git --version
-
-- If Git is not installed, install it using:
-
-   brew install git
-
-(You may need to install Homebrew first.)
-
-### For Linux (Ubuntu/Debian-based):
-Open the Terminal and run:
-
-    sudo apt update
-    sudo apt install git
-
-Once installed, verify the installation by running:
-
-     git --version
-
-
-## Step 3: Configuring Git with Your GitHub Account
-Once Git is installed, you need to configure it with your name and email. This helps Git track your changes and associate them with your GitHub account. Every time you make changes to a file, Git will store your name and email in the history log, allowing you and others to see who made each update.
-
-Setting up Git properly ensures a smooth workflow when pushing your code to GitHub. Let’s configure Git with your identity.
-
-## Step 4: Creating Your First GitHub Repository
-A repository (repo) is where your project files are stored on GitHub. It acts like a folder where you can save, track, and collaborate on code. You can create repositories for personal projects, class assignments, or team-based development.
-
-Repositories can be public (anyone can see them) or private (only you and selected people can view them). To get started, you will create your first repository directly on GitHub.
+Before tracking your data, you need to install GitHub Desktop, a user-friendly application that simplifies version control without needing command-line commands.
 
 ### Instructions:
-- Go to your GitHub homepage.
-- Click on the + icon (top right) and select New repository.
-- Enter a repository name (e.g., my-first-repo).
-- Choose Public or Private.
-- Check the box for Initialize this repository with a README (optional).
-- Click Create repository.
 
-## Step 5: Connecting Your Local Project to GitHub
-Now that you have a repository on GitHub, it’s time to connect it with a local project on your computer. This allows you to write code on your machine and sync it with GitHub. You will use Git commands to initialize, commit, and push your project to GitHub.
+1. Go to [Github](https://desktop.github.com/download/) and download the desktop version for your operating system.
+2. Install GitHub Desktop and sign in with your GitHub account.
+3. Set up your GitHub profile with your name and email (important for tracking contributions) from the account you set up in step 1.
 
-This step is essential if you want to store your code in GitHub or collaborate with others. Let’s walk through the process.
+
+## Step 3: Creating a Repository for Your Research Data
+A repository (A "repo") is like a folder where you store your research data and track changes over time.
+
+### Instructions
+1. Open GitHub Desktop and click “File” → “New Repository”.
+2. Give your repository a name (e.g., "Climate_Data_Study_2024").
+3. Choose a location **on your computer** where the repository will be stored.
+4. Select Private (if you are using it for your lab group). You can name "collaborators" later (students, postdocs, etc)
+5. Check “Initialize this repository with a README” (important for documenting your dataset). This is the appropriate spot to include summary information about this particular repository's purpose
+6. Click Create Repository.
+
+Now, you have a version-controlled folder on your computer where you can store and track your research data.
+
+## Step 4: Adding Data Files to GitHub Desktop
+Once your repository is set up, you can start adding data files like Excel, CSV, or JSON datasets. 
 
 ### Instructions:
-- Open the Terminal (or Git Bash).
-- Navigate to the folder where you want to create your project:
+1. Open your repository folder *on your computer.*
+2. Copy or move your data files (e.g., temperature_data_2024.csv) into the folder.
+3. Open GitHub Desktop, and you’ll see the new files listed as "Uncommitted Changes."
+4. Add a commit message (e.g., "Initial dataset upload - July 2025"). N
+5. Click Commit to main (this saves the version to your local repository).
+6. Click Push to Origin (this uploads your data to GitHub.com).
 
-## Conclusion
-Now that you have GitHub set up, you can explore more advanced features:
-✅ Learn basic Git commands (git status, git pull, git branch).
-✅ Use GitHub Desktop if you prefer a graphical interface.
-✅ Try GitHub Actions for automation.
+**Why Commit Messages Matter?**
+Every time you save changes in GitHub Desktop, you write a commit message explaining what changed. This helps future researchers understand:
+✔ What was added/modified?
+✔ Why was the data updated?
+✔ Who made the change?
 
-Go to the [next tutorial](Submodule_0_Tutorial_6_UsingGit.md)
+The previous commit is NOT overwritten. Rather, the beauty of git is that it saves what has changed. Thus, it is possible to revert to a previous commit (if something has gone wrong) or to specify a particular version of a data set for a publication.
+
+## Step 5: Managing Protocol Changes & Dataset Updates
+In research, data collection methods evolve. You might introduce:
+🔹 New measurement instruments 📏
+🔹 Revised calibration methods ⚙️
+🔹 Updated sampling locations 🌍
+
+Using GitHub Desktop, you can track protocol changes alongside your datasets.
+
+### Instructions:
+1. Open your repository folder.
+2. Edit or add a new protocol document (e.g., data_collection_protocol_v2.docx).
+3. Open GitHub Desktop, and you’ll see the updated file.
+4. Write a commit message (e.g., "Updated protocol to include new sensor calibration process").
+5. Click Commit to main, then Push to Origin.
+
+Now, every protocol update is documented and timestamped, ensuring full transparency.
+
+## Managing a lab group using the same git repository
+It is rather unlikely that ONLY one person would be the involved in collecting all of the data for a research lab. In order to control and protect overwriting, Git provides clear management tools. That is covered in the next tutorial.
+
+Go to the [next tutorial](Submodule_0_Tutorial_5_ManagingGit.md)
