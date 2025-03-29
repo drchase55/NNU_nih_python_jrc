@@ -6,13 +6,17 @@ Git is a powerful version control tool that helps track changes to your data fil
 
 ## Learning Objectives
 By the end of this lesson, you will be able to:
+- Define FAIR data practices
+- Understand the purpose of git tools
+- Create a GitHub account
+- Set up GitHub Desktop to track data files (Excel, CSV, etc.)
+- Create your first repository
+- Push data to GitHub (your first "commit")
 
-✅ Define FAIR data practices
-✅ Understand the purpose of git tools
-✅ Create a GitHub account
-✅ Set up GitHub Desktop to track data files (Excel, CSV, etc.)
-✅ Create your first repository
-✅Push data to GitHub (your first "commit")
+## Prerequisites
+None
+
+-------------------------------------------
 
 # FAIR Data principles
 
@@ -27,15 +31,15 @@ The FAIR data principles are:
 
 ## Why Research Labs Need Version Control for Data? 
 Research labs handle large datasets, evolving protocols, and multiple contributors over years. Without version control, it’s easy to:
-❌ Lose track of previous datasets when files are updated.
-❌ Overwrite important files when multiple people are working on them.
-❌ Forget why a dataset changed, especially if students and researchers rotate over time.
+- ❌ Lose track of previous datasets when files are updated.
+- ❌ Overwrite important files when multiple people are working on them.
+- ❌ Forget why a dataset changed, especially if students and researchers rotate over time.
 
 How can GitHub Desktop helps with these challenges in data management
-✅ Automatic version history for all data files.
-✅ Clear tracking of protocol changes in README files.
-✅ Collaboration with multiple researchers while preventing data loss.
-✅ Integration with automated checks for data integrity (e.g., missing values in CSVs).
+- Automatic version history for all data files.
+- Clear tracking of protocol changes in README files.
+- Collaboration with multiple researchers while preventing data loss.
+- Integration with automated checks for data integrity (e.g., missing values in CSVs).
 
 The key word: *AUTOMATICALLY* though we'll not get to THAT until the next tutorial.
 
@@ -43,28 +47,31 @@ Version control tools like Git provide a structured way to track, manage, and do
 
 ### Why Version Control for Research Data?
 <br>1️⃣ Ensuring Data Integrity Over Time
+<br>
 Many research projects span years and generate large datasets.
 Without version control, researchers might accidentally overwrite or lose critical data.
 Git keeps a full history of changes, so you can always revert to a previous dataset if errors occur.
 <br>2️⃣ Managing Changes in Protocols and Methods
-Research methodologies evolve over time—new equipment, updated software, or adjusted data collection techniques may be introduced.
+<br>Research methodologies evolve over time—new equipment, updated software, or adjusted data collection techniques may be introduced.
+<br>
 If a dataset changes due to a new collection protocol, Git allows researchers to:
-✅ Document protocol changes in commit messages.
-✅ Compare "before and after" versions of the dataset.
-✅ Maintain a clear audit trail of why and how data collection changed over time.
+- Document protocol changes in commit messages.
+- Compare "before and after" versions of the dataset.
+- Maintain a clear audit trail of why and how data collection changed over time.
 <br>3️⃣ Tracking Contributions from Multiple Students and Researchers
+<br>
 Labs often have a rotating group of students and researchers working on different aspects of the same dataset.
 Without version control, files may be duplicated, overwritten, or lost.
 With Git, every change is linked to the individual who made it, making it easy to:
-✅ Assign credit for contributions.
-✅ Resolve conflicts between different updates.
-✅ Prevent accidental data loss due to human error.
+- Assign credit for contributions.
+- Resolve conflicts between different updates.
+- Prevent accidental data loss due to human error.
 <br>4️⃣ Supporting Automated Data Collection and Analysis Pipelines
-Many labs use automated sensors, scripts, or instruments that generate data continuously.
-Git can be integrated with data pipelines to:
-✅ Automatically log changes when new data is added.
-✅ Run data validation checks to detect anomalies.
-✅ Ensure that analysis scripts always run on the correct version of the dataset.
+<br>Many labs use automated sensors, scripts, or instruments that generate data continuously.
+<br>Git can be integrated with data pipelines to:
+- Automatically log changes when new data is added.
+- Run data validation checks to detect anomalies.
+- Ensure that analysis scripts always run on the correct version of the dataset.
 <br>5️⃣ Reproducibility and Compliance with FAIR Principles
 - Scientific research relies on reproducibility—other researchers should be able to replicate results.
 - Keeping a clear history of data versions, updates, and methodology changes ensures that future researchers can trust and understand the dataset.
@@ -100,6 +107,7 @@ A repository (A "repo") is like a folder where you store your research data and 
 
 ### Instructions
 1. Open GitHub Desktop and click “File” → “New Repository”.
+![NewRepository](./images/github_new_repository.png)
 2. Give your repository a name (e.g., "Climate_Data_Study_2024").
 3. Choose a location **on your computer** where the repository will be stored.
 4. Select Private (if you are using it for your lab group). You can name "collaborators" later (students, postdocs, etc)
@@ -115,9 +123,12 @@ Once your repository is set up, you can start adding data files like Excel, CSV,
 1. Open your repository folder *on your computer.*
 2. Copy or move your data files (e.g., temperature_data_2024.csv) into the folder.
 3. Open GitHub Desktop, and you’ll see the new files listed as "Uncommitted Changes."
-4. Add a commit message (e.g., "Initial dataset upload - July 2025"). N
+4. Add a commit message (e.g., "Initial dataset upload - July 2025").
+![CommitMessage](./images/commit_msg.png)
 5. Click Commit to main (this saves the version to your local repository).
 6. Click Push to Origin (this uploads your data to GitHub.com).
+![PushImage](./images/push_origin.png)
+
 
 **Why Commit Messages Matter?**
 Every time you save changes in GitHub Desktop, you write a commit message explaining what changed. This helps future researchers understand:

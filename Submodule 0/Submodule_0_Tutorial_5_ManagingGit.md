@@ -1,12 +1,19 @@
-# Tutorial 6: Managing your GitHub data repositories
+# Tutorial 5: Managing your GitHub data repositories
 ---------------------------------------------------------------
-
 ## Overview
-
+This tutorial helps research PIs and project leads set up GitHub to manage lab data with clarity and control. You'll learn how to protect the main branch, require review of changes, and maintain traceability across your team’s contributions.
 
 ## Learning Objectives
+In this tutorial, you will strengthen your abilities to:
+- Explain the risks of uncontrolled data changes in research labs
+- Define key GitHub terms like commits, branches, pull requests, and main
+- Set up branch protection to safeguard official data and protocols
+- Require collaborators to submit changes for review (via pull requests)
+- Maintain a clean, auditable history of contributions and updates
+- Apply Git/GitHub tools to support data integrity and FAIR principles
 
-
+## Prerequisites
+Please complete tutorial 4 before tutorial 5.
 
 --------------------------------------------------------------
 ## Why use Git for your research lab team *DATA?*
@@ -26,15 +33,16 @@ GitHub makes this possible with a system of branch protection and pull requests�
 
 ## Key Concepts (Plain Language)
 🔹 What is a “commit”?
+<br>
 A commit is like saving a version of your file with a note attached—"I added this graph," "I fixed a typo," etc. Every team member commits their own changes as they work.
 
 🔹 What is “push” vs. “pull”?
-Push: Upload your saved changes to GitHub (shared with the team).
-
+<br>Push: Upload your saved changes to GitHub (shared with the team).
+<br>
 Pull: Download the latest team updates from GitHub to your computer.
 
 🔹 What is the “main” branch?
-Think of the main branch as the “official” version of the project or dataset. You want to keep it clean and stable—like a published paper.
+<br>Think of the main branch as the “official” version of the project or dataset. You want to keep it clean and stable—like a published paper.
 
 ## Why You Should Protect the “Main” Branch
 Without protection 🔒:
