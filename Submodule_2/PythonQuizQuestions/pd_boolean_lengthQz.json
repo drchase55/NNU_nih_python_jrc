@@ -6,11 +6,11 @@
                 "type": "value",
                 "value": 100,
                 "correct": false,
-                "feedback": 'Incorrect. len(states.loc[(states["Life Exp"]>71) & (states["Life Exp"]>7)]) or use that to define a new dataframe x and get its length'
+                "feedback": 'Incorrect. len(states.loc[(states["Life Exp"]<71) & (states["Life Exp"]>70)]) or use that to define a new dataframe x and get its length'
             },
             {
                 "type": "value",
-                "value": 20,
+                "value": 21,
                 "correct": true,
                 "feedback": "Gret job! Did you find an efficient method?"
             },
