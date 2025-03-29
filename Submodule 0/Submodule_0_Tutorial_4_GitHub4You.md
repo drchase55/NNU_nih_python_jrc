@@ -58,21 +58,27 @@ If a dataset changes due to a new collection protocol, Git allows researchers to
 - Document protocol changes in commit messages.
 - Compare "before and after" versions of the dataset.
 - Maintain a clear audit trail of why and how data collection changed over time.
-<br>3️⃣ Tracking Contributions from Multiple Students and Researchers
+<br>
+3️⃣ Tracking Contributions from Multiple Students and Researchers
 <br>
 Labs often have a rotating group of students and researchers working on different aspects of the same dataset.
 Without version control, files may be duplicated, overwritten, or lost.
+
 With Git, every change is linked to the individual who made it, making it easy to:
 - Assign credit for contributions.
 - Resolve conflicts between different updates.
 - Prevent accidental data loss due to human error.
-<br>4️⃣ Supporting Automated Data Collection and Analysis Pipelines
+
+<br>
+4️⃣ Supporting Automated Data Collection and Analysis Pipelines
 <br>Many labs use automated sensors, scripts, or instruments that generate data continuously.
 <br>Git can be integrated with data pipelines to:
 - Automatically log changes when new data is added.
 - Run data validation checks to detect anomalies.
 - Ensure that analysis scripts always run on the correct version of the dataset.
-<br>5️⃣ Reproducibility and Compliance with FAIR Principles
+
+<br>
+5️⃣ Reproducibility and Compliance with FAIR Principles
 - Scientific research relies on reproducibility—other researchers should be able to replicate results.
 - Keeping a clear history of data versions, updates, and methodology changes ensures that future researchers can trust and understand the dataset.
 - Many funding agencies and journals now require data provenance tracking, which Git provides naturally.
@@ -107,6 +113,7 @@ A repository (A "repo") is like a folder where you store your research data and 
 
 ### Instructions
 1. Open GitHub Desktop and click “File” → “New Repository”.
+<br>
 ![NewRepository](./images/github_new_repository.png)
 2. Give your repository a name (e.g., "Climate_Data_Study_2024").
 3. Choose a location **on your computer** where the repository will be stored.
@@ -124,25 +131,27 @@ Once your repository is set up, you can start adding data files like Excel, CSV,
 2. Copy or move your data files (e.g., temperature_data_2024.csv) into the folder.
 3. Open GitHub Desktop, and you’ll see the new files listed as "Uncommitted Changes."
 4. Add a commit message (e.g., "Initial dataset upload - July 2025").
+<br>
 ![CommitMessage](./images/commit_msg.png)
-5. Click Commit to main (this saves the version to your local repository).
+5. Click the bottom "Commit to _____" button (this saves the version to your local repository).
+<br>
 6. Click Push to Origin (this uploads your data to GitHub.com).
 ![PushImage](./images/push_origin.png)
 
 
 **Why Commit Messages Matter?**
 Every time you save changes in GitHub Desktop, you write a commit message explaining what changed. This helps future researchers understand:
-✔ What was added/modified?
-✔ Why was the data updated?
-✔ Who made the change?
+- ✔ What was added/modified?
+- ✔ Why was the data updated?
+- ✔ Who made the change?
 
 The previous commit is NOT overwritten. Rather, the beauty of git is that it saves what has changed. Thus, it is possible to revert to a previous commit (if something has gone wrong) or to specify a particular version of a data set for a publication.
 
 ## Step 5: Managing Protocol Changes & Dataset Updates
 In research, data collection methods evolve. You might introduce:
-🔹 New measurement instruments 📏
-🔹 Revised calibration methods ⚙️
-🔹 Updated sampling locations 🌍
+- 🔹 New measurement instruments 📏
+- 🔹 Revised calibration methods ⚙️
+- 🔹 Updated sampling locations 🌍
 
 Using GitHub Desktop, you can track protocol changes alongside your datasets.
 
@@ -150,7 +159,7 @@ Using GitHub Desktop, you can track protocol changes alongside your datasets.
 1. Open your repository folder.
 2. Edit or add a new protocol document (e.g., data_collection_protocol_v2.docx).
 3. Open GitHub Desktop, and you’ll see the updated file.
-4. Write a commit message (e.g., "Updated protocol to include new sensor calibration process").
+4. Write a commit message (e.g., "Updated protocol to include new sensor calibration process") as above for data
 5. Click Commit to main, then Push to Origin.
 
 Now, every protocol update is documented and timestamped, ensuring full transparency.
