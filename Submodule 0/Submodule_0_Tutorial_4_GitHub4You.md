@@ -113,7 +113,7 @@ A repository (A "repo") is like a folder where you store your research data and 
 
 ### Instructions
 1. Open GitHub Desktop and click “File” → “New Repository”.
-<br>
+
 ![NewRepository](./images/github_new_repository.png)
 2. Give your repository a name (e.g., "Climate_Data_Study_2024").
 3. Choose a location **on your computer** where the repository will be stored.
@@ -131,10 +131,10 @@ Once your repository is set up, you can start adding data files like Excel, CSV,
 2. Copy or move your data files (e.g., temperature_data_2024.csv) into the folder.
 3. Open GitHub Desktop, and you’ll see the new files listed as "Uncommitted Changes."
 4. Add a commit message (e.g., "Initial dataset upload - July 2025").
-<br>
+
 ![CommitMessage](./images/commit_msg.png)
+
 5. Click the bottom "Commit to _____" button (this saves the version to your local repository).
-<br>
 6. Click Push to Origin (this uploads your data to GitHub.com).
 ![PushImage](./images/push_origin.png)
 
